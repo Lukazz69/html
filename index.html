@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon_html.ico" type="image/x-icon">
+    <title>Aprendendo HTML5</title>
+    <style>
+        mark {
+            background-color: blueviolet;
+            color: aliceblue;
+        }
+    </style>
+</head>
+<body>
+    <h1>Estudo em HTML5</h1>
+    <img src="foto-perfil-guanabara.png" alt="Gustavo Guanabara">
+    <p>Meus contatos.</p>
+    <ul type="circle">
+        <li><img src="icone-github.png" alt="Ícone Github"><a href="https://github.com/gustavoguanabara/html-css/tree/master/aulas-pdf" target="_blank" rel="unfollow"> Github</a></li>
+        <li><img src="icone-youtube.png" alt="ícone youtube"> <a href="https://www.youtube.com/c/CursoemVídeo" target="_blank" rel="unfollow">Youtube</a></li>
+    </ul>
+    <h2>Entenda um pouco sobre <a href="pag002.html" rel="next">Títulos e Parágrafos</a>, e sobre a hierarquia desses títulos.</h2>
+    <hr>
+    
+    <h2>Entenda um pouco sobre como <a href="pag004.html" rel="next">adicionar imagem</a> no seu site.</h2>
+
+    <h3>Vamos colocar alguns emojis e símbolos.</h3>
+    &reg; &copy; &trade; &euro; &pound; &yen; &cent; &Delta; &uarr;
+    <p>Eu coloquei esse emoji &#x1F973; com o código <strong>&#x</strong> e em seguida coloco o emoji em <strong>Hexadecimal.</strong></p>
+    <hr>
+    
+    <h3>Vamos agora aprender a colocar as palavras em negrito</h3>
+    <p>Podemos começar com <b>esse exemplo</b> fiz isso usando a tag &lt;b&gt;. Outro metódo seria usando a tag &lt;strong&gt; como segue o exemplo <strong>em negrito.</strong></p>
+    <p>Para termos <i>em itálico</i>, podemos usar a tag &lt;i&gt; que funciona normal. Porém outro metódo é selecionar o termo desejado e apertar as teclas CTRL + SHIFT + P, em seguida clicar em <i>Wrap with Abbreviation.</i> e selecionar a regras <em>EM</em> essa tag EM, funciona em nova versão.</p>
+    <hr>
+
+    <h2>Vamos aprender um pouco sobre <a href="pag003.html" rel="next">Marcação de texto</a>, como podemos formatar alguns estilos e formatações.</h2>
+    <hr>
+
+    <h2>Trabalhando com listas.</h2>
+    <h3>Listas Ordenadas.</h3> 
+    <p>É seguida da tag <strong>OL</strong>, com <strong>LI</strong> dentro dele, podendo tem o STYLE em <strong>números romanos, letras e números.</strong></p>
+    <ol type="I"> 
+        <li>Acordar.</li>
+        <li>Olhar o celular.</li>
+        <li>Tomar café.</li>
+        <li>Escovar os dentes.</li>
+    </ol>
+    <h2>Listas não Ordenadas.</h2> <p>É seguida da tag <strong>UL</strong>, com <strong>LI</strong> dentre dele, podendo tem o STYLE em <strong>circle, disc e square.</strong></p>
+    <ul type="square">
+        <li>Pão</li>
+        <li>Arroz</li>
+        <li>Tomate</li>
+        <li>Feijão</li>
+    </ul>
+
+    <h2>Minhas plataformas e jogos <i>favoritos.</i></h2>
+    <ol>
+        <li>Steam</li>
+        <ul type="circle">
+            <li>God of War</li>
+            <li>Elden Ring</li>
+            <li>GTA V</li>
+        </ul>
+        <li>Epic Games</li>
+        <ul type="circle">
+            <li>Fortnite</li>
+            <li>Batman Beghings</li>
+            <li>Marvels Rivals</li>
+        </ul>
+    </ol>
+
+    <dl>
+        <dt>HTML</dt>
+        <dd>Linguagem de marcação para a criação do conteúdo de um site.</dd>
+        <dt>CSS</dt>
+        <dd>Linguagem de marcação para a criação de design de um site.</dd>
+    </dl>
+
+    <h2>Links externos.</h2>
+    <!--Usando a tag A, conseguindo gerar um link externo. Importante usar o TARGET _blank e o REL external, para abrir em uma nova guia.-->
+    <p>Eu gosto muito do canal <a href="https://www.youtube.com/@einerdtv" target="_blank" rel="external">EiNerd</a>, ele tem muito conteúdo geek.</p>
+
+    <h2>Para efetuar downloads</h2>
+    <hr>
+    <p>Para efetuar download basta colocar o termo dentro do &lt;a&gt;, e na referencia voce coloca a pasta onde está o arquivo, e coloca os seguintes parametros <code>"download=seuarquivo.formato" type="application/formato"</code>, esse formato do type voce encontra <a href="https://www.iana.org/assignments/media-types/media-types.xhtml" target="_blank" rel="nofollow">aqui</a>.</p>
+    <ul type="square">
+        <li><a href="matricula/declaracao de matricula.pdf" download="declaracao de matricula.pdf" type="application/pdf">Baixar em PDF</a></li>
+        <li><a href="matricula/declaracao de matricula.rar" download="declaracao de matricula.rar" type="application/rar">Baixar em ZIP</a></li>
+    </ul>
+
+    <h2>Imagem Dinâmica</h2>
+    <p>Vamos entender um pouco de imagem dinâmica <a href="pag005.html" rel="next">aqui</a>.</p>
+
+
+        
+</body>
+</html>
