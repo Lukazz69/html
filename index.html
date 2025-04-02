@@ -94,7 +94,24 @@
     <h2>Imagem Dinâmica</h2>
     <p>Vamos entender um pouco de imagem dinâmica <a href="pag005.html" rel="next">aqui</a>.</p>
 
+    <h2>Para adicionar audio</h2>
+    <p>Para tocar audio é basicamente simples, voce irá usar a tag &lt;AUDIO&gt;, com os parâmetros de CONTROLS para aparecer o controlador da mídia, e também o parâmetro autoplay.</p>
+    <audio src="midia/SONG NO COPYRIGHT - MUSICA SEM DIREITOS AUTORAIS _ Lofi hip hop beat (online-audio-converter.com).mp3" controls autoplay></audio>
 
+    <p>Outra maneira para adicionar audio no seu site é usando o SOURCE, analise o codigo a seguir.</p>
+
+<pre>
+    <code>
+        audio preload="metadata" autoplay controls>
+           source src="midia/SONG NO COPYRIGHT - MUSICA SEM DIREITOS AUTORAIS _ Lofi hip hop beat (online-audio-converter.com).mp3" type="audio/mpeg"
+           source src="midia/SONG NO COPYRIGHT - MUSICA SEM DIREITOS AUTORAIS _ Lofi hip hop beat (online-audio-converter.com).ogg" type="audio/ogg"
+           source src="midia/SONG NO COPYRIGHT - MUSICA SEM DIREITOS AUTORAIS _ Lofi hip hop beat (online-audio-converter.com).wav" type="audio/wav"
+        audio
+    </code>
+</pre>
+    <p>Assim você consegue uma gama de formatos e também de hierarquia de audios.</p>
+
+    <h3>Para adicionar vídeo clique <a href="pag006.html" rel="next">aqui</a>.</h3>
         
 </body>
 </html>
