@@ -1,21 +1,21 @@
 @charset "UTF-8";
 
 body {
-    background-color: lightcyan;
+    background-image: linear-gradient(to bottom, #4EC0BA, #38EBE2, #5B9996);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 16px;
     text-align: justify;
 }
 
 h1 {
-    color:black;
-    background-color: bisque;
+    color:white;
+    background-color: #4F6B6A;
     
 }
 
 h2 {
-    color: black;
-    background-color: bisque;
+    color: white;
+    background-color: #4F6B6A;
 }
 
 p{
