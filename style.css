@@ -21,3 +21,13 @@ h2 {
 p{
     text-align: justify;
 }
+
+.titulos{
+    border: 3px solid black;
+    padding: 20px;
+    text-align: justify;
+}
+
+#gustavoguanabara{
+    text-align: center;
+}
