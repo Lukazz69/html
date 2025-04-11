@@ -6,11 +6,23 @@
     <title>Marcações de texto</title>
     <link rel="shortcut icon" href="favicon_html.ico" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
+    <style>
+        body{
+            background-image: linear-gradient(to bottom, #4EC0BA, #38EBE2, #5B9996);
+        }
+    </style>
 </head>
 <body>
+    <div class="titulo-principal">
+        <h1>Formatações</h1>
+    </div>
+    <h3>Vamos agora aprender a colocar as palavras em negrito</h3>
+    <p>Podemos começar com <b>esse exemplo</b> fiz isso usando a tag &lt;b&gt;. Outro metódo seria usando a tag &lt;strong&gt; como segue o exemplo <strong>em negrito.</strong></p>
+    <p>Para termos <i>em itálico</i>, podemos usar a tag &lt;i&gt; que funciona normal. Porém outro metódo é selecionar o termo desejado e apertar as teclas CTRL + SHIFT + P, em seguida clicar em <i>Wrap with Abbreviation.</i> e selecionar a regras <em>EM</em> essa tag EM, funciona em nova versão.</p>
+
     <h3>Texto marcado</h3>
-    <p>Podemos usar um <MARK>texto marcado usando</MARK> a tag MARK</p>
-    <P>Nesse outro parágrafo podemos fazer outro <mark>texto marcado</mark>. Mas para mudar a cor de todos os MARK vamos no HEAD do HTML colocar um paramêtro de STYLE, para não ficar somente unitário o código.</P>
+    <p>Podemos usar um <mark>texto marcado</mark> usando a tag MARK</p>
+    <P>Nesse outro parágrafo podemos fazer outro <mark style="background-color: cadetblue;">texto marcado</mark>. Mas para mudar a cor de todos os MARK vamos no HEAD do HTML colocar um paramêtro de STYLE, para não ficar somente unitário o código.</P>
     <p>Porém também posso colocar um STYLE no MARK separado, <mark style="background-color: rgb(51, 10, 235); color: ghostwhite;">como esse.</mark></p>
     <hr>
 
@@ -33,8 +45,7 @@
     <h3>Texto subscrito.</h3>
     <p>Para inserior coisas do tipo H<sub>2</sub>O, a tag SUB.</p>
     <hr>
-    <h1>Outras formatações</h1>
-    <h2>Código fonte</h2>
+    <h3>Código fonte</h3>
     <p>O comando <code>document.getElementByID('teste')</code> é escrito em linguagem JavaScript. Eu uso o comando &lt;code&gt; para deixar o mesmo tamanho de espaçamento entre as letras.</p>
     <pre>
         <code>
@@ -46,10 +57,11 @@
     print('Fim do programa.')
         </code>
     </pre>
-
+    <p>Já o comando acima é uma junção do &lt;pre&gt; com o &lt;code&gt;.</p>
+    <hr>
     <p>Como diria meu amigo george: <q>O Bruno é um boi sem chifre.</q>, a tag Q é uma citação.</p>
 
-    <h2>Abreviações</h2>
+    <h3>Abreviações</h3>
     <p>No League of Legends existem o <abbr title="Começo do jogo.">EarlyGame</abbr> e o <abbr title="Final do jogo.">LateGame</abbr>, são importantes para a partida.</p>
     <p>Note que foi usada uma abreviação do significado, isso foi possivel graças a tag ABBR.</p>
     <img src="8371_Teemo.png" alt="Imagem do Teemo">

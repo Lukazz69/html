@@ -8,125 +8,129 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div id="titulo-principal">
-        <h1>Estudo em HTML5</h1>
-    </div>
-    <div id="gustavoguanabara">
+
+    <div class="caixas" id="gustavoguanabara">
+        <h1 class="titulo-principal">Estudo em HTML5</h1>
         <img src="foto-perfil-guanabara.png" alt="Gustavo Guanabara">
-    </div>
-    <p>Para salvar meu projeto no GitHub vou usar os comandos <mark><code>git add .</code></mark>, em seguida vamos usar o <mark><code>git commit -m "algo"</code></mark>, e por último vamos usar o <mark><code>git push</code></mark></p>
+        <p>Para salvar meu projeto no GitHub vou usar os comandos <mark><code>git add .</code></mark>, em seguida vamos usar o <mark><code>git commit -m "algo"</code></mark>, e por último vamos usar o <mark><code>git push</code></mark></p>
     <p>Meus contatos.</p>
     <ul type="circle">
-        <li><img src="icone-github.png" alt="Ícone Github"><a href="https://github.com/gustavoguanabara/html-css/tree/master/aulas-pdf" target="_blank" rel="unfollow"> Github</a></li>
+        <li><img src="icone-github.png" alt=""><a href="https://github.com/gustavoguanabara/html-css/tree/master/aulas-pdf" target="_blank" rel="unfollow"> Github</a></li>
         <li><img src="icone-youtube.png" alt="ícone youtube"> <a href="https://www.youtube.com/c/CursoemVídeo" target="_blank" rel="unfollow">Youtube</a></li>
     </ul>
+    </div>
+    
     <div class="titulo">
-        <h2 class="titulos"><a href="pag002.html" rel="next">Títulos</a></h2>   
+        <h2><a href="pag002.html" rel="next">Títulos</a></h2>   
     </div>
 
     <div class="titulo">
         <h2><a href="pag004.html" rel="next">Imagem</a></h2>
     </div>
 
-    <p>Aprenda um pouco sobre hierarquia de títulos e paragráfos e sobre como inserir imagens nos links acima. &uparrow;</p>
-    <hr>
+    <div class="titulo">
+        <h2><a href="pag003.html" rel="next">Marcação</a></h2>
+    </div>
+
     
+    <div class="caixas">
+        <h3>Vamos colocar alguns emojis e símbolos.</h3>
+        &reg; &copy; &trade; &euro; &pound; &yen; &cent; &Delta; &uarr;
+        <p>Eu coloquei esse emoji &#x1F973; com o código <strong>&#x</strong> e em seguida coloco o emoji em <strong>Hexadecimal.</strong></p>
+    </div>
+
     
-
-    <h3>Vamos colocar alguns emojis e símbolos.</h3>
-    &reg; &copy; &trade; &euro; &pound; &yen; &cent; &Delta; &uarr;
-    <p>Eu coloquei esse emoji &#x1F973; com o código <strong>&#x</strong> e em seguida coloco o emoji em <strong>Hexadecimal.</strong></p>
-    <hr>
-    
-    <h3>Vamos agora aprender a colocar as palavras em negrito</h3>
-    <p>Podemos começar com <b>esse exemplo</b> fiz isso usando a tag &lt;b&gt;. Outro metódo seria usando a tag &lt;strong&gt; como segue o exemplo <strong>em negrito.</strong></p>
-    <p>Para termos <i>em itálico</i>, podemos usar a tag &lt;i&gt; que funciona normal. Porém outro metódo é selecionar o termo desejado e apertar as teclas CTRL + SHIFT + P, em seguida clicar em <i>Wrap with Abbreviation.</i> e selecionar a regras <em>EM</em> essa tag EM, funciona em nova versão.</p>
-    <hr>
-
-    <h2 class="titulos">Vamos aprender um pouco sobre <a href="pag003.html" rel="next">Marcação de texto</a>, como podemos formatar alguns estilos e formatações.</h2>
-    <hr>
-
-    <h2 class="titulos">Trabalhando com listas.</h2>
-    <h3>Listas Ordenadas.</h3> 
-    <p>É seguida da tag <strong>OL</strong>, com <strong>LI</strong> dentro dele, podendo tem o STYLE em <strong>números romanos, letras e números.</strong></p>
-    <ol type="I"> 
-        <li>Acordar.</li>
-        <li>Olhar o celular.</li>
-        <li>Tomar café.</li>
-        <li>Escovar os dentes.</li>
-    </ol>
-    <h2 class="titulos">Listas não Ordenadas.</h2> <p>É seguida da tag <strong>UL</strong>, com <strong>LI</strong> dentre dele, podendo tem o STYLE em <strong>circle, disc e square.</strong></p>
-    <ul type="square">
-        <li>Pão</li>
-        <li>Arroz</li>
-        <li>Tomate</li>
-        <li>Feijão</li>
-    </ul>
-
-    <h2 class="titulos">Minhas plataformas e jogos <i>favoritos.</i></h2>
-    <ol>
-        <li>Steam</li>
-        <ul type="circle">
-            <li>God of War</li>
-            <li>Elden Ring</li>
-            <li>GTA V</li>
+    <div class="caixas">
+        <h2 class="sub-titulos">Trabalhando com listas.</h2>
+        <h3>Listas Ordenadas.</h3>
+        <p>É seguida da tag <strong>OL</strong>, com <strong>LI</strong> dentro dele, podendo tem o STYLE em <strong>números romanos, letras e números.</strong></p>
+        <ol type="I">
+            <li>Acordar.</li>
+            <li>Olhar o celular.</li>
+            <li>Tomar café.</li>
+            <li>Escovar os dentes.</li>
+        </ol>
+        <h3>Listas não Ordenadas.</h3>
+        <p>É seguida da tag <strong>UL</strong>, com <strong>LI</strong> dentre dele, podendo tem o STYLE em <strong>circle, disc e square.</strong></p>
+        <ul type="square">
+            <li>Pão</li>
+            <li>Arroz</li>
+            <li>Tomate</li>
+            <li>Feijão</li>
         </ul>
-        <li>Epic Games</li>
-        <ul type="circle">
-            <li>Fortnite</li>
-            <li>Batman Beghings</li>
-            <li>Marvels Rivals</li>
+    </div>
+
+    <div class="caixas">
+        <h2 class="sub-titulos">Minhas plataformas e jogos <i>favoritos.</i></h2>
+        <ol>
+            <li>Steam</li>
+            <ul type="circle">
+                <li>God of War</li>
+                <li>Elden Ring</li>
+                <li>GTA V</li>
+            </ul>
+            <li>Epic Games</li>
+            <ul type="circle">
+                <li>Fortnite</li>
+                <li>Batman Beghings</li>
+                <li>Marvels Rivals</li>
+            </ul>
+        </ol>
+        <dl>
+            <dt>HTML</dt>
+            <dd>Linguagem de marcação para a criação do conteúdo de um site.</dd>
+            <dt>CSS</dt>
+            <dd>Linguagem de marcação para a criação de design de um site.</dd>
+        </dl>
+    </div>
+
+    <div class="caixas">
+        <h2 class="sub-titulos">Links externos.</h2>
+        <!--Usando a tag A, conseguindo gerar um link externo. Importante usar o TARGET _blank e o REL external, para abrir em uma nova guia.-->
+        <p>Eu gosto muito do canal <a href="https://www.youtube.com/@einerdtv" target="_blank" rel="external">EiNerd</a>, ele tem muito conteúdo geek.</p>
+        <h3>Para efetuar downloads</h3>
+        <p>Para efetuar download basta colocar o termo dentro do &lt;a&gt;, e na referencia voce coloca a pasta onde está o arquivo, e coloca os seguintes parametros <code>"download=seuarquivo.formato" type="application/formato"</code>, esse formato do type voce encontra <a href="https://www.iana.org/assignments/media-types/media-types.xhtml" target="_blank" rel="nofollow">aqui</a>.</p>
+        <ul type="square">
+            <li><a href="matricula/declaracao de matricula.pdf" download="declaracao de matricula.pdf" type="application/pdf">Baixar em PDF</a></li>
+            <li><a href="matricula/declaracao de matricula.rar" download="declaracao de matricula.rar" type="application/rar">Baixar em ZIP</a></li>
         </ul>
-    </ol>
+        <h3>Imagem Dinâmica</h3>
+        <p>Vamos entender um pouco de imagem dinâmica <a href="pag005.html" rel="next">aqui</a>.</p>
+    </div>
 
-    <dl>
-        <dt>HTML</dt>
-        <dd>Linguagem de marcação para a criação do conteúdo de um site.</dd>
-        <dt>CSS</dt>
-        <dd>Linguagem de marcação para a criação de design de um site.</dd>
-    </dl>
+    <div class="caixas">
+        <h2 class="sub-titulos">Para adicionar audio</h2>
+        <p>Para tocar audio é basicamente simples, voce irá usar a tag &lt;AUDIO&gt;, com os parâmetros de CONTROLS para aparecer o controlador da mídia, e também o parâmetro autoplay.</p>
+        <audio src="midia/SONG NO COPYRIGHT - MUSICA SEM DIREITOS AUTORAIS _ Lofi hip hop beat (online-audio-converter.com).mp3" controls></audio>
+        <p>Outra maneira para adicionar audio no seu site é usando o SOURCE, analise o codigo a seguir.</p>
+        <pre>
+        <code>
+            audio preload="metadata" autoplay controls>
+               source src="midia/SONG NO COPYRIGHT - MUSICA SEM DIREITOS AUTORAIS _ Lofi hip hop beat (online-audio-converter.com).mp3" type="audio/mpeg"
+               source src="midia/SONG NO COPYRIGHT - MUSICA SEM DIREITOS AUTORAIS _ Lofi hip hop beat (online-audio-converter.com).ogg" type="audio/ogg"
+               source src="midia/SONG NO COPYRIGHT - MUSICA SEM DIREITOS AUTORAIS _ Lofi hip hop beat (online-audio-converter.com).wav" type="audio/wav"
+            audio
+        </code>
+        </pre>
+        <p>Assim você consegue uma gama de formatos e também de hierarquia de audios.</p>
+        <h3>Para adicionar vídeo clique <a href="pag006.html" rel="next">aqui</a>.</h3>
+    </div>
 
-    <h2 class="titulos">Links externos.</h2>
-    <!--Usando a tag A, conseguindo gerar um link externo. Importante usar o TARGET _blank e o REL external, para abrir em uma nova guia.-->
-    <p>Eu gosto muito do canal <a href="https://www.youtube.com/@einerdtv" target="_blank" rel="external">EiNerd</a>, ele tem muito conteúdo geek.</p>
+    <div class="caixas">
+        <h2 class="sub-titulos">Seletores em CSS</h2>
+        <P>Temos alguns seletores como CLASS, ID, VALUE e seletores universais. São eles respectivamentes, CLASS (.class) para chamar a função, ID (#id), p[value=""], e o Universal é apenas *{}, O Class pode ser usado em vários elementos, já o ID apenas em todo o código HTML, exemplo ID= "MAIN", so pode tem um MAIN em todo o código. o p[value=""] é para marcar Paragrafos, Listas ou titulos com algum valor especifico. O universal é para todos.</P>
+    </div>
 
-    <h2 class="titulos">Para efetuar downloads</h2>
-    <hr>
-    <p>Para efetuar download basta colocar o termo dentro do &lt;a&gt;, e na referencia voce coloca a pasta onde está o arquivo, e coloca os seguintes parametros <code>"download=seuarquivo.formato" type="application/formato"</code>, esse formato do type voce encontra <a href="https://www.iana.org/assignments/media-types/media-types.xhtml" target="_blank" rel="nofollow">aqui</a>.</p>
-    <ul type="square">
-        <li><a href="matricula/declaracao de matricula.pdf" download="declaracao de matricula.pdf" type="application/pdf">Baixar em PDF</a></li>
-        <li><a href="matricula/declaracao de matricula.rar" download="declaracao de matricula.rar" type="application/rar">Baixar em ZIP</a></li>
-    </ul>
+    <div class="caixas">
+        <h2 class="sub-titulos">Fontes e Cores.</h2>
+        <p>A muitas maneiras de representar cores no CSS, a mais usada são as cores em HEXADECIMAL, sites que voce pode encontrar alguns exemplos sao o <a href="https://color.adobe.com/pt/create/color-wheel" rel="external">adobe</a> e o <a href="https://colorhunt.co" rel="external">colorhunt</a>. Já as fontes você consegue encontrar no próprio visual code (VSCode) como também no  <a href="https://fonts.google.com" rel="external">GoogleFonts</a>. As fontes existem por caterias que você pode entrar como serifadas, sem serifas, monoespaçadas, fantasia, feitas a mão entre outras... Enfim com o código já copiado basta apenas colar na aba &lt;head&gt;</p>
+    </div>
 
-    <h2 class="titulos">Imagem Dinâmica</h2>
-    <p>Vamos entender um pouco de imagem dinâmica <a href="pag005.html" rel="next">aqui</a>.</p>
-
-    <h2 class="titulos">Para adicionar audio</h2>
-    <p>Para tocar audio é basicamente simples, voce irá usar a tag &lt;AUDIO&gt;, com os parâmetros de CONTROLS para aparecer o controlador da mídia, e também o parâmetro autoplay.</p>
-    <audio src="midia/SONG NO COPYRIGHT - MUSICA SEM DIREITOS AUTORAIS _ Lofi hip hop beat (online-audio-converter.com).mp3" controls></audio>
-
-    <p>Outra maneira para adicionar audio no seu site é usando o SOURCE, analise o codigo a seguir.</p>
-
-<pre>
-    <code>
-        audio preload="metadata" autoplay controls>
-           source src="midia/SONG NO COPYRIGHT - MUSICA SEM DIREITOS AUTORAIS _ Lofi hip hop beat (online-audio-converter.com).mp3" type="audio/mpeg"
-           source src="midia/SONG NO COPYRIGHT - MUSICA SEM DIREITOS AUTORAIS _ Lofi hip hop beat (online-audio-converter.com).ogg" type="audio/ogg"
-           source src="midia/SONG NO COPYRIGHT - MUSICA SEM DIREITOS AUTORAIS _ Lofi hip hop beat (online-audio-converter.com).wav" type="audio/wav"
-        audio
-    </code>
-</pre>
-    <p>Assim você consegue uma gama de formatos e também de hierarquia de audios.</p>
-
-    <h3>Para adicionar vídeo clique <a href="pag006.html" rel="next">aqui</a>.</h3>
-
-    <h2 class="titulos">Seletores em CSS</h2>
-    <P>Temos alguns seletores como CLASS, ID, VALUE e seletores universais. São eles respectivamentes, CLASS (.class) para chamar a função, ID (#id), p[value=""], e o Universal é apenas *{}, O Class pode ser usado em vários elementos, já o ID apenas em todo o código HTML, exemplo ID= "MAIN", so pode tem um MAIN em todo o código. o p[value=""] é para marcar Paragrafos, Listas ou titulos com algum valor especifico. O universal é para todos.</P>
-
-    <h2 class="titulos">Fontes e Cores.</h2>
-    <p>A muitas maneiras de representar cores no CSS, a mais usada são as cores em HEXADECIMAL, sites que voce pode encontrar alguns exemplos sao o <a href="https://color.adobe.com/pt/create/color-wheel" rel="external">adobe</a> e o <a href="https://colorhunt.co" rel="external">colorhunt</a>. Já as fontes você consegue encontrar no próprio visual code (VSCode) como também no  <a href="https://fonts.google.com" rel="external">GoogleFonts</a>. As fontes existem por caterias que você pode entrar como serifadas, sem serifas, monoespaçadas, fantasia, feitas a mão entre outras... </p>
-
-
+    <div class="caixas">
+        <h2 class="sub-titulos">Estilo de prioridade em cascata.</h2>
+        <img id="cascata" src="estilo_cascata.png" alt="Estilo de cascata CSS">
+        <p>O estilo é baseado na ordem de Posição, Especificação, Tipo e Importância como descreve a imagem. No sentido de cima para baixo de importância.</p>
+    </div>
         
 </body>
 </html>
