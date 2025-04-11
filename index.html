@@ -128,7 +128,11 @@
 
     <div class="caixas">
         <h2 class="sub-titulos">Estilo de prioridade em cascata.</h2>
-        <img id="cascata" src="estilo_cascata.png" alt="Estilo de cascata CSS">
+        <picture>
+            <source media="(max-width: 750px)" srcset="estilo_cascata-800p.png" type="image/png">
+            <source media="(max-width: 1200px)" srcset="estilo_cascata-1200p.png" type="image/png">
+            <img src="estilo_cascata.png" alt="imagem grande">
+        </picture>
         <p>O estilo é baseado na ordem de Posição, Especificação, Tipo e Importância como descreve a imagem. No sentido de cima para baixo de importância.</p>
     </div>
         
